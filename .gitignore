@@ -1,0 +1,15 @@
+# Build artifacts
+build/
+
+# Generated configuration — source of truth is sdkconfig.defaults*
+sdkconfig
+sdkconfig.old
+
+# Component manager downloads — reproducible from main/idf_component.yml
+# (and dependencies.lock, once generated; that file itself IS tracked)
+managed_components/
+
+# Editor/tooling artifacts
+.vscode/
+.cache/
+compile_commands.json

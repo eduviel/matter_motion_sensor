@@ -1,0 +1,11 @@
+menu "Example Configuration"
+
+    config PIR_GPIO_NUM
+        int "PIR sensor GPIO number"
+        default 2
+        help
+            GPIO pin connected to the PIR sensor's digital output.
+            Avoid ESP32-C6 strapping pins (4, 5, 8, 9, 15) when picking
+            a different value.
+
+endmenu
